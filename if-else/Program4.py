@@ -6,8 +6,6 @@
 # Less than 6 years 5%
 # Ask user for their salary and years of service and print the
 # net bonus amount?
-import math
-
 employeeName = input("Enter your name :")
 employeeSalary = int(input("Enter your current salary : "))
 timePeriod  = int(input("Enter your employee period : "))

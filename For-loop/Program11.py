@@ -8,8 +8,17 @@
 # PriyaSharma@gmail.com
 # You have to create email addresses for each employee.
 
+
 indian_employees = [["Raj", "Patel"], ["Priya", "Sharma"], ["Amit", "Kumar"], ["Neha", "Singh"]]
 
+email_addresses = []
+
 for employee in indian_employees:
-    email = "{}{}@gmail.com".format(employee[0].lower(), employee[1].lower())
+    first_name = employee[0]
+    last_name = employee[1]
+    email = first_name + last_name + "@gmail.com"
+    email_addresses.append(email)
+
+# Print the email addresses
+for email in email_addresses:
     print(email)
